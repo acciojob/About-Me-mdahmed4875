@@ -1,1 +1,78 @@
+img {
+    width: 150px;
+    height: auto;        
+  }
+body{
+	background-color:gray;
+	display:flex;
+	justify-content:center;
+	padding:auto;
+	margin:auto;
+}
+#container1{
+	padding:15px;
+	margin:10px;
+}
+#container2{
+	padding:15px;
+	margin:10px;
+	text-align:space-evenly
+}
+#image-section{
+	display:flex;
+	gap:30px
+}
+#container{
+	height:auto;
+	padding:auto;
+	margin:auto;
+	width:90%;
+	display:flex;
+	justify-content:space-between;
+	gap:30px;
+	background-color:white;
+}
+.progress-container {
+      width: 300px;
+      background-color: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+    }
 
+    /* Inner progress bar */
+    .progress-bar1 {
+      height: 20px;
+      background-color: blue;
+		width:95%;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+    }
+ .progress-bar2 {
+      height: 20px;
+      background-color: blue;
+		width:90%;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+    }
+ .progress-bar3 {
+      height: 20px;
+      background-color: blue;
+		width:99%;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+    }
+ .progress-bar4 {
+      height: 20px;
+      background-color: blue;
+		width:93%;
+      text-align: center;
+      color: white;
+      font-size: 12px;
+      line-height: 20px;
+    }
